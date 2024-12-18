@@ -38,7 +38,7 @@ func QueryDeHashed(email string, apiKey string, domain string) {
 		os.Exit(1)
 	}
 
-	// pretty-ing the json blob
+	// pretty-ing the json blob via structs
 	type Entry struct {
 		Email        string
 		Username     string
